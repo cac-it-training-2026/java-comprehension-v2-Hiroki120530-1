@@ -9,7 +9,7 @@ class MemberManager {
 
 	}
 
-	public static void showALLMembers(Member[] members) {
+	public static void showAllMembers(Member[] members) {
 		for (Member member : members) {
 			member.showMember();
 		}
