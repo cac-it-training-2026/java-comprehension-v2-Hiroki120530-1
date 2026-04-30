@@ -1,4 +1,4 @@
-package q01_basic.question04;
+package q01_basic.question06;
 
 class Member {
 	//TODO ここから実装する
@@ -67,6 +67,10 @@ class Member {
 		this.name = name;
 		this.age = age;
 		this.rank = rank;
+	}
+
+	public void buyItem() {
+		System.out.println(name + "a");
 	}
 
 	public void showMember() {
