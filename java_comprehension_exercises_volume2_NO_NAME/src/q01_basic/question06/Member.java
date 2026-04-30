@@ -1,24 +1,7 @@
-package q01_basic.question05;
+package q01_basic.question06;
 
-public class Member extends AbstMember {
-	public Member() {
-	}
-
-	/**
-	 * @param id
-	 * @param password
-	 * @param name
-	 * @param age
-	 * @param rank
-	 */
-	public Member(int id, String password, String name, int age, int rank) {
-		this.id = id;
-		this.password = password;
-		this.name = name;
-		this.age = age;
-		this.rank = rank;
-	}
-
+class Member {
+	//TODO ここから実装する
 	private int id;
 	private String password;
 	private String name;
@@ -65,8 +48,29 @@ public class Member extends AbstMember {
 		return rank;
 	}
 
+	/**
+	 * 
+	 */
+	public Member() {
+	}
+
+	/**
+	 * @param id
+	 * @param password
+	 * @param name
+	 * @param age
+	 * @param rank
+	 */
+	public Member(int id, String password, String name, int age, int rank) {
+		this.id = id;
+		this.password = password;
+		this.name = name;
+		this.age = age;
+		this.rank = rank;
+	}
+
 	public void buyItem() {
-		System.out.println(name + "purchased the item at 50% off");
+		System.out.println(name + "a");
 	}
 
 	public void showMember() {

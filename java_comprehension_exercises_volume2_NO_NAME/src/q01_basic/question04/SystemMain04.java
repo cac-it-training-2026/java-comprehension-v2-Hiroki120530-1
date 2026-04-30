@@ -12,6 +12,6 @@ public class SystemMain04 {
 		members[1] = member2;
 
 		System.out.println("---SHOW ALL MEMBERS---");
-		MemberManager.showALLMembers(members);
+		MemberManager.showAllMembers(members);
 	}
 }
